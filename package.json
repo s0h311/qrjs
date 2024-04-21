@@ -1,0 +1,14 @@
+{
+  "name": "qrjs",
+  "version": "1.0.0",
+  "module": "dist/index.mjs",
+  "author": "Soheil Nazari",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --minify --format=esm --outfile=dist/index.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5"
+  }
+}
